@@ -68,8 +68,10 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build-api
+      - build-api:
+          context: tuist
       - deploy-api:
+          context: tuist
           requires:
             - build-api
           filters:
