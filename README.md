@@ -1,5 +1,9 @@
 # Galaxy 🚀
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![CircleCI](https://circleci.com/gh/tuist/galaxy.svg?style=svg)](https://circleci.com/gh/tuist/galaxy)
+[![Slack](http://slack.tuist.io/badge.svg)](http://slack.tuist.io)
+
 To improve teams' workflows with Xcode projects, it's crucial to have insights and metrics from the projects. Although some insights can be exported using `xcodebuild`, teams rarely do anything with that information nor know how to collect the data that they are really interested in.
 
 Galaxy is Tuist's attempt to make that possible. Projects using Tuist can integrate with Galaxy, a team dashboard where teams can check metrics that Tuist reports from the projects.
