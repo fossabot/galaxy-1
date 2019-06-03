@@ -23,3 +23,14 @@ The repositories contains 2 projects, an API built with [Rails](https://rubyonra
 2. cd into the `app` directory: `cd app`.
 3. Install dependencies: `yarn install`.
 4. Run it locally: `yarn dev`.
+
+
+## Open source
+
+Tuist is a proud supporter of the [Software Freedom Conservacy](https://sfconservancy.org/)
+
+<a href="https://sfconservancy.org/supporter/"><img src="https://sfconservancy.org/img/supporter-badge.png" width="194" height="90" alt="Become a Conservancy Supporter!" border="0"/></a>
+
+## License
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftuist%2Ftuist.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftuist%2Ftuist?ref=badge_large)
