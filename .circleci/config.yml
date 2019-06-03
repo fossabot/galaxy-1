@@ -17,10 +17,11 @@ jobs:
 
       - image: redis:4.0.6
 
-    working_directory: api
+    working_directory: ~/repo/api
 
     steps:
-      - checkout
+      - checkout:
+          path: ~/repo
 
       - run:
           name: Update Bundler
@@ -57,7 +58,8 @@ jobs:
     docker:
       - image: buildpack-deps:trusty
     steps:
-      - checkout
+      - checkout:
+          path: ~/repo
       - run:
           name: Deploy Master to Heroku
           command: |
